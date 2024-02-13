@@ -30,11 +30,4 @@
 *.exe
 *.out
 *.app
-CMakeLists.txt
-CMakeLists.txt
-func.cpp
-func.hpp
-input.txt
-main.cpp
-README.md
 *.md
