@@ -1,6 +1,4 @@
 ﻿
-// func.cpp
-
 #include <iostream>
 #include "func.hpp"
 #include <fstream>

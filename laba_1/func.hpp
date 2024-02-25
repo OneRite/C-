@@ -1,9 +1,5 @@
 ﻿
-
-// func.hpp
-
-#define FUNC_HPP
-
+#pragma once
 #include <string>
 
 namespace rs
