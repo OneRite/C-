@@ -117,25 +117,25 @@ namespace mt
 			m_spaceObjects[0]->Setup(650, 300, 40, 30, "assets\\comet.png", 0.1f);
 
 			m_spaceObjects.push_back(new Star);
-			m_spaceObjects[1]->Setup(200, 600, 0, 2, "assets\\star.png", 0.4f);
+			m_spaceObjects[1]->Setup(200, 600, 0, -2, "assets\\star.png", 0.4f);
 
 			m_spaceObjects.push_back(new Star);
-			m_spaceObjects[2]->Setup(500,400, 2, 1, "assets\\star.png", 0.4f);
+			m_spaceObjects[2]->Setup(500,400, -2, 1, "assets\\star.png", 0.4f);
 			
 			m_spaceObjects.push_back(new Star);
-			m_spaceObjects[3]->Setup(800, 1000, 1, 1, "assets\\star.png", 0.4f);
+			m_spaceObjects[3]->Setup(800, 1000, -1, 1, "assets\\star.png", 0.4f);
 
 			m_spaceObjects.push_back(new Star);
-			m_spaceObjects[4]->Setup(1100, 700, 1, 2, "assets\\star.png", 0.4f);
+			m_spaceObjects[4]->Setup(1100, 700, 1, -2, "assets\\star.png", 0.4f);
 
 			m_spaceObjects.push_back(new Star);
 			m_spaceObjects[5]->Setup(1400, 300, 2, 0, "assets\\star.png", 0.4f);
 
 			m_spaceObjects.push_back(new Star);
-			m_spaceObjects[6]->Setup(1700,1000, 2, 1, "assets\\star.png", 0.4f);
+			m_spaceObjects[6]->Setup(1700,1000, -2, -1, "assets\\star.png", 0.4f);
 
 			m_spaceObjects.push_back(new Star);
-			m_spaceObjects[7]->Setup(950, 100, 1, 2, "assets\\star.png", 0.4f);
+			m_spaceObjects[7]->Setup(950, 100, -1, 2, "assets\\star.png", 0.4f);
 
 
 		}
